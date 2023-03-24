@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 a {
-  @apply text-blue-500 hover:text-blue-400 hover:underline transition-all;
+  @apply text-blue-500 transition-all hover:text-blue-400 hover:underline;
+}
+
+.swiper [class^="swiper-button-"]::after {
+  content: "";
 }
